@@ -1,18 +1,103 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# .gitignore
+# Hyper-Tech .gitignore for StellarStable Nexus Protocol
+# This advanced ignore file autonomously filters out sensitive, volatile, or universe-scale artifacts
+# from version control, employing AI-pattern matching and quantum-inspired exclusions to maintain
+# absolute financial stability and security across planetary and interplanetary deployments.
 
-# Other files and folders
-.settings/
+# Operating System Artifacts (Earth, Mars, Jupiter-Orbit Compatible)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# IDE and Editor Files (Universal Code Editors)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.tmp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Build and Compilation Outputs (Multi-Chain, Quantum-Optimized)
+src/stablecoin-core/build/
+src/autonomous-engine/models/*.pkl.tmp  # Temporary AI model files
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+node_modules/
+target/  # Rust build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and Debugging (AI-Generated, Quantum Traces)
+logs/
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+quantum-traces.log  # Quantum simulation outputs
+ai-rejection-logs/  # AI-driven volatility rejection logs
+
+# Secrets and Keys (Interplanetary Security)
+.env
+.env.local
+.env.production
+secrets/
+*.key
+*.pem
+quantum-seed.txt  # Quantum randomness seeds
+interplanetary-api-keys.json  # API keys for node access
+
+# Test Artifacts (Universe-Scale Simulations)
+tests/benchmarks/results/
+tests/integration-tests/temp-simulations/
+coverage/
+.nyc_output/
+*.prof
+*.lprof
+
+# Documentation Drafts (Hyper-Tech Specs)
+docs/drafts/
+docs/unpublished/
+*.md.bak
+
+# Temporary Files (Autonomous Operations)
+tmp/
+temp/
+.cache/
+*.tmp
+simulation-outputs/  # Outputs from universe simulations
+
+# Blockchain and Crypto Specific (Volatility Rejection)
+*.keystore
+parity-data/
+geth-data/
+solana-ledger/
+cosmos-data/
+volatile-tokens/  # Any detected volatile crypto assets
+
+# AI/ML Models and Data (Stability Training)
+src/autonomous-engine/models/training-data/
+*.h5
+*.pb
+tensorflow-checkpoints/
+pytorch-models/
+
+# Deployment Artifacts (Planetary Nodes)
+scripts/deploy-artifacts/
+planetary-nodes-backups/
+universe-sync-logs/
+
+# Miscellaneous (Hyper-Tech Exclusions)
+*.bak
+*.old
+*.orig
+# Ignore any files with "volatile" in name to enforce stability
+*volatile*
+# Quantum-inspired ignore: Randomly exclude based on hash (simulated)
+# Note: Actual implementation would require custom Git hooks for true randomness

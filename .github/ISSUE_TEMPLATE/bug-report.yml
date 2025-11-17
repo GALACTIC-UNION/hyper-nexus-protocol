@@ -1,0 +1,121 @@
+# .github/ISSUE_TEMPLATE/bug-report.yml
+# Hyper-Tech Bug Report Form for StellarStable Nexus Protocol
+# This advanced issue form autonomously categorizes and prioritizes bugs in the universal stablecoin system,
+# integrating AI-driven analysis, quantum validation, and interplanetary context for unmatched stability enforcement.
+
+name: Hyper-Tech Bug Report
+description: Report a bug in the StellarStable Nexus protocol. This form uses AI to auto-prioritize and validate stability impacts.
+title: "[BUG] "
+labels: ["bug", "hyper-tech", "stability-check"]
+assignees: ["nexus-guardians"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Hyper-Tech Bug Report for StellarStable Nexus
+        Thank you for reporting an issue in our universal stablecoin protocol. This form employs quantum-inspired validation and AI analysis to ensure accurate categorization. Please provide detailed information to maintain absolute financial stability.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Your email or interplanetary ID for follow-up (optional, but recommended for critical stability issues).
+      placeholder: "e.g., guardian@earth-nexus.io or Mars-Node-42"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: bug-category
+    attributes:
+      label: Bug Category
+      description: Select the primary category of the bug. AI will auto-validate against protocol specs.
+      options:
+        - Autonomous Engine Failure (e.g., rejection algorithm not working)
+        - Stablecoin Core Issue (e.g., pegging mechanism broken)
+        - Hyper-Nexus Connectivity (e.g., planetary sync failure)
+        - Quantum Validator Error (e.g., transaction validation glitch)
+        - Universe Scalability Problem (e.g., cross-chain bridge overload)
+        - Other (specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Provide a clear, detailed description of the bug. Include any AI-generated logs or quantum traces if available.
+      placeholder: "Describe what happened, expected vs. actual behavior, and any stability impacts."
+      value: |
+        **Observed Behavior:**  
+        [Describe what occurred]
+
+        **Expected Behavior:**  
+        [Describe what should have happened]
+
+        **Stability Impact:**  
+        [e.g., High - Volatile assets accepted; Low - Minor UI glitch]
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: List step-by-step instructions to reproduce the bug. Include quantum seeds or simulation parameters for accuracy.
+      placeholder: "1. Deploy to Mars node... 2. Simulate 1e6 transactions... 3. Check rejection algorithm..."
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Details
+      description: Specify the deployment environment, including planetary node, blockchain, and version.
+      placeholder: "e.g., Earth-Ethereum-Mainnet v2.1.0, Quantum Seed: 0xA1B2C3"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: AI-assisted severity assessment based on potential financial instability.
+      options:
+        - Critical (Universe-scale stability compromised)
+        - High (Planetary financial disruption)
+        - Medium (Local node issues)
+        - Low (Cosmetic or minor)
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs or Screenshots
+      description: Attach logs, screenshots, or quantum simulation outputs. Use code blocks for better readability.
+      placeholder: "Paste logs here or attach files. E.g., ``` [AI Rejection Log] Volatility detected: 0.02% ```"
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Check any relevant details to help with hyper-tech analysis.
+      options:
+        - label: "I have tested this on multiple planetary nodes (e.g., Earth, Mars)"
+        - label: "This affects cross-chain bridging"
+        - label: "Quantum validation was involved"
+        - label: "AI stability model flagged this issue"
+        - label: "I am willing to provide a fix or simulation script"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Note:** Upon submission, this issue will be auto-analyzed by our hyper-tech AI for prioritization. If stability is at risk, an autonomous rollback may be triggered. For urgent issues, contact the Nexus Guardians directly.
